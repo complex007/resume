@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简历生成器</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >Wang Yuqi</h1>
+                <h4 id="persona-tag" >AngularJS / Cordova / REST API / ASP.NET</h4>
+            </div>
+           
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">Information</span></h2>
+                <hr>
+                <ul class="info-list">
+                    
+                    <li>
+                        <label class="left-label">Email</label><span class="label-value">iris_yuqi.wang@outlook.com</span></li>
+                    
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">https://github.com/complex007</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">Skills</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Javascript</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">C#</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">Technology Stack</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">Frontend</label><span class="label-value">Angular.js, JQuery, Bootstrap, CSS, Cordova</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">Backend</label><span class="label-value">ASP.NET Web API, J2EE, WCF, Flask, Node.js, MySQL, MS SQL, SQLite</span></li>
+                    </li>
+                    
+                </ul>
+            </div>
+<div class="languages info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">Languages</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Mandarin</label>
+                        <progress value="100" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">English</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    
+                </ul>
+            </div>
+        
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">Education</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Institute of System Science - Systems Analysis (Graduate Diploma) </h3>
+                        <h3>14/08/2016 - 01/08/2017</h3>
+                       
+                    </li>
+                    <li>
+                        <h3>Hangzhou Normal University - Applied Psychology (Master)</h3>
+                        <h3>02/09/2013 - 20/06/2016</h3>
+                       
+                    </li>
+                     <li>
+                        <h3>Chaohu University - Applied Psychology (Bachelor)</h3>
+                        <h3>01/09/2008 -13/07/2012</h3>
+                       
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">Internship Experience</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3> Singapore Institute of Manufacturing Technology - Full Stack Developer</h3>
+                            <h3>28/02/2017 – 12/07/2017</h3>
+                        <ul>
+                            <li> Built a mobile system with AngularJS, Cordova, ASP.NET Web API and MSSQL Server to prove the
+
+feasibility of saving energy of compressed air system.
+</li>
+
+<li> This system allows users to monitor the production procedures in real time and estimate the saved
+
+electricity cost and the payback period.</li>
+
+<li> Suggested the team to use ASP.NET Web API instead of WCF as REST web API development tool to
+
+optimize the performance of the system.</li>
+
+<li>  Negotiated with 2 project managers and 2 programmers about user requirements and system features
+
+to increase the cooperation within team.</li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Zhejiang Foreign Service Corp - System Analyst</h3>
+                            <h3>20/07/2015 - 03/03/2016</h3>
+                       <ul>
+                           <li>Designed work difficulty questionnaires and conducted semi-structured interviews to gather users’
+
+requirements of a salary accounting software system used by 6 community service centers.</li>
+
+<li> This system helps more than 2000 users to evaluate working quality and calculate salary. </li>
+
+<li> Analyzed users’ requirements and working scenarios to prepare for the IT solution of tracking work
+
+performance and calculating salary.</li>
+
+<li> Documented testing procedures and results to enhance the usability of employee management module
+
+and salary processing module. </li>
+
+<li> Wrote the user manual and organized training to transit about 100 users to the system.</li>
+                           </ul>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">Project Experience</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Application Development Project (ISS)  10/01/2016 - 07/02/2016</h3>
+                        <ul>
+                            <li> Developed a stationery store inventory web system using ASP.NET and an android application using
+
+Java. This system helps users to book stationeries, track the trend of ordering and deliver orders.</li>
+
+<li> Developed web back end API with WCF and MSSQL Server.</li>
+
+<li> Implemented trend analysis module using Crystal Report in Web Form.</li>
+
+<li> Acted as a technique leader for android app in an 8 members’ team.</li>
+                            </ul>
+                    </li>
+                    <li>
+                        <h3>Web Project With J2EE (ISS)  30/11/2016 - 12/12/2016</h3>
+                        <ul>
+<li>Implemented a course management website which allows managing accounts, grading students,
+
+scheduling courses and enrolling courses.</li>
+
+<li> Developed management of coursed and enrollment module with servlet, JSP, JDBC and MySQL.</li>
+                            </ul>
+                    </li>
+                    <li>
+                        <h3>Web Project With ASP.NET (ISS)  07/11/2016 - 09/11/2016</h3>
+                        <ul>
+
+
+                            <li> Developed a property management web application with HTML, CSS, JQuery and Bootstrap. This web
+
+application allows property agents to manage properties and customers to shortlist properties.</li>
+
+<li> Built property management module using ASP.NET and WCF.</li>
+                            </ul>
+                    </li>
+                    <li>
+                        <h3>Object Oriented Application Project (ISS)  04/10/2016 - 07/10/2016</h3>
+                        <ul>
+                           <li> Designed and developed a desktop library management application with Win Form.</li>
+
+<li> Implemented reporting system with Crystal Report.</li>
+
+<li> Wrote stored procedures in MSSQL Server.</li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+</body>
+
+</html>
